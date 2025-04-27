@@ -1,0 +1,1350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2178522438112348770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8413042688163104134}
+  - component: {fileID: 489012354121435808}
+  - component: {fileID: 6246574421589190248}
+  - component: {fileID: 8226298034820188457}
+  - component: {fileID: 2461113275648978716}
+  - component: {fileID: 8369003859394626337}
+  - component: {fileID: 2262142801464158629}
+  - component: {fileID: 4453135124643614074}
+  m_Layer: 7
+  m_Name: Negai Hoshino
+  m_TagString: WorkNPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8413042688163104134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.29, y: -11.18, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4631576051085359673}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &489012354121435808
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: -4287101317676662005, guid: 92cac23231c25d545a6fbadcf49df592, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.46, y: 0.7}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &6246574421589190248
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb59a0ce5537a4d40b68fb44b14360fa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &8226298034820188457
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &2461113275648978716
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.003399849, y: 0.09411049}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.5, y: 3.3}
+    newSize: {x: 0.46, y: 0.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1340694, y: 3.688221}
+  m_EdgeRadius: 0
+--- !u!114 &8369003859394626337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2b9f821fccbb34ebc370d18e76f5c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2262142801464158629}
+    - {fileID: 2178522438112348770}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: TreeData
+      Entry: 7
+      Data: 0|BehaviourTree.BehaviourTreeData, Assembly-CSharp
+    - Name: Root
+      Entry: 7
+      Data: 1|BehaviourTree.Entry, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 69b42a26-7c4d-4d50-8655-6bf52199f85e
+    - Name: NodeName
+      Entry: 1
+      Data: Entry
+    - Name: NodeType
+      Entry: 3
+      Data: 1
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 6
+      Data: 
+    - Name: ChildNode
+      Entry: 7
+      Data: 2|BehaviourTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 8f37b713-b4b1-4c1a-9259-0757bef932b6
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4ED5\u4E8B\u3092\u6C7A\u3081\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 209
+    - Name: 
+      Entry: 4
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 1
+    - Name: ChildNodes
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 4|BehaviourTree.So, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a9b61484-6533-4ad5-9c7f-25a5d6d7f4e5
+    - Name: NodeName
+      Entry: 1
+      Data: "\u304A\u5BA2\u69D8\u304C\u3044\u307E\u3059"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 488
+    - Name: 
+      Entry: 4
+      Data: -204
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 2
+    - Name: ChildNode
+      Entry: 7
+      Data: 5|BehaviourTree.WorkNpc.WorkNPCBT+JudgePosition, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a8967a8d-a9d9-4b33-8a0a-28833ad79f70
+    - Name: NodeName
+      Entry: 1
+      Data: "\u30EC\u30B8\u306E\u508D\u306B\u306B\u3044\u308B\uFF1F"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 872
+    - Name: 
+      Entry: 4
+      Data: -238
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 4
+    - Name: ChildNode
+      Entry: 7
+      Data: 6|BehaviourTree.WorkNpc.GotoDes, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: fe87987c-1c42-45c3-9b75-3ea46634c37c
+    - Name: NodeName
+      Entry: 1
+      Data: "\u30EC\u30B8\u306B\u3044\u304F"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1237
+    - Name: 
+      Entry: 4
+      Data: -259.16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 5
+    - Name: IsArrive
+      Entry: 7
+      Data: 7|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 7
+      Data: 8|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: WorkingNpc, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: methodName
+      Entry: 1
+      Data: CheckMoving
+    - Name: delegateType
+      Entry: 7
+      Data: 9|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: signature
+      Entry: 7
+      Data: 10|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DesTran
+      Entry: 6
+      Data: 
+    - Name: AfterArrived
+      Entry: 7
+      Data: 11|System.Action, mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: DealMoveArrived
+    - Name: delegateType
+      Entry: 7
+      Data: 12|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: System.Action, mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: signature
+      Entry: 7
+      Data: 13|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: HowtoMove
+      Entry: 7
+      Data: 14|System.Action`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: MoveToDES
+    - Name: delegateType
+      Entry: 7
+      Data: 15|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: System.Action`1[[UnityEngine.Transform, UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: signature
+      Entry: 7
+      Data: 16|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 17|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: UnityEngine.Transform, UnityEngine.CoreModule
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isNearBy
+      Entry: 7
+      Data: 18|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: IsNearByCasshier
+    - Name: delegateType
+      Entry: 9
+      Data: 9
+    - Name: signature
+      Entry: 7
+      Data: 19|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ResetFlag
+      Entry: 7
+      Data: 20|System.Action, mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: RestFlagWhenDealing
+    - Name: delegateType
+      Entry: 9
+      Data: 12
+    - Name: signature
+      Entry: 7
+      Data: 21|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Condition
+      Entry: 7
+      Data: 22|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: IsNeedCash
+    - Name: delegateType
+      Entry: 9
+      Data: 9
+    - Name: signature
+      Entry: 7
+      Data: 23|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|BehaviourTree.So, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 528f80e1-f4d0-4bd9-82d0-92dfcb788e59
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4ED5\u4E8B\u304C\u3042\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 486
+    - Name: 
+      Entry: 4
+      Data: 191
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 2
+    - Name: ChildNode
+      Entry: 7
+      Data: 25|BehaviourTree.WorkNpc.WorkNPCBT+JudgePosition, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a78a9465-795c-4fbc-9396-46d48c8cfe17
+    - Name: NodeName
+      Entry: 1
+      Data: "\u30A4\u30FC\u30BC\u30EB\u306E\u508D\u306B\u306B\u3044\u308B\uFF1F"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 818
+    - Name: 
+      Entry: 4
+      Data: 192
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 24
+    - Name: ChildNode
+      Entry: 7
+      Data: 26|BehaviourTree.WorkNpc.GotoWork, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 68e84544-4703-4e03-add2-6d6b0bc88776
+    - Name: NodeName
+      Entry: 1
+      Data: "\u30A4\u30FC\u30BC\u30EB\u306B\u3044\u304F"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1252
+    - Name: 
+      Entry: 4
+      Data: 178
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 25
+    - Name: IsArrive
+      Entry: 7
+      Data: 27|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: CheckMoving
+    - Name: delegateType
+      Entry: 9
+      Data: 9
+    - Name: signature
+      Entry: 7
+      Data: 28|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: AfterArrived
+      Entry: 6
+      Data: 
+    - Name: HowtoMove
+      Entry: 7
+      Data: 29|System.Action`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: MoveToWork
+    - Name: delegateType
+      Entry: 9
+      Data: 15
+    - Name: signature
+      Entry: 7
+      Data: 30|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 17
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isNearBy
+      Entry: 7
+      Data: 31|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: IsNearByWork
+    - Name: delegateType
+      Entry: 9
+      Data: 9
+    - Name: signature
+      Entry: 7
+      Data: 32|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ResetFlag
+      Entry: 7
+      Data: 33|System.Action, mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: ResetFlagWhenWorking
+    - Name: delegateType
+      Entry: 9
+      Data: 12
+    - Name: signature
+      Entry: 7
+      Data: 34|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Condition
+      Entry: 7
+      Data: 35|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: isNeedWork
+    - Name: delegateType
+      Entry: 9
+      Data: 9
+    - Name: signature
+      Entry: 7
+      Data: 36|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 55ce65f7-02dc-4a17-b79b-751cb41c5c46
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4F11\u61A9"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 495
+    - Name: 
+      Entry: 4
+      Data: 558
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 2
+    - Name: ChildNodes
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 39|BehaviourTree.WorkNpc.WorkNPCBT+JudgePosition, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 8a705a6e-9367-474b-9f80-050c825db693
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4F11\u61A9\u3068\u3053\u308D\u306B\u3044\u308B\uFF1F"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 743
+    - Name: 
+      Entry: 4
+      Data: 536
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 37
+    - Name: ChildNode
+      Entry: 7
+      Data: 40|BehaviourTree.WorkNpc.GotoDes, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: f428aded-4937-4c44-9fe1-46bcb60fd13d
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4F11\u61A9\u3068\u3053\u308D\u306B\u3044\u304F"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1054
+    - Name: 
+      Entry: 4
+      Data: 533
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 39
+    - Name: IsArrive
+      Entry: 7
+      Data: 41|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: IsNearByWait
+    - Name: delegateType
+      Entry: 9
+      Data: 9
+    - Name: signature
+      Entry: 7
+      Data: 42|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DesTran
+      Entry: 6
+      Data: 
+    - Name: AfterArrived
+      Entry: 7
+      Data: 43|System.Action, mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: WaitMoveArrived
+    - Name: delegateType
+      Entry: 9
+      Data: 12
+    - Name: signature
+      Entry: 7
+      Data: 44|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: HowtoMove
+      Entry: 7
+      Data: 45|System.Action`1[[UnityEngine.Transform, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: MoveToDES
+    - Name: delegateType
+      Entry: 9
+      Data: 15
+    - Name: signature
+      Entry: 7
+      Data: 46|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 17
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isNearBy
+      Entry: 7
+      Data: 47|System.Func`1[[System.Boolean, mscorlib]], mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: IsNearByWait
+    - Name: delegateType
+      Entry: 9
+      Data: 9
+    - Name: signature
+      Entry: 7
+      Data: 48|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ResetFlag
+      Entry: 7
+      Data: 49|System.Action, mscorlib
+    - Name: target
+      Entry: 10
+      Data: 0
+    - Name: declaringType
+      Entry: 9
+      Data: 8
+    - Name: methodName
+      Entry: 1
+      Data: ResetFlagWhenWaitting
+    - Name: delegateType
+      Entry: 9
+      Data: 12
+    - Name: signature
+      Entry: 7
+      Data: 50|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: behaviorGameOBJ
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeData
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 9
+      Data: 24
+    - Name: 
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 9
+      Data: 6
+    - Name: 
+      Entry: 9
+      Data: 25
+    - Name: 
+      Entry: 9
+      Data: 37
+    - Name: 
+      Entry: 9
+      Data: 39
+    - Name: 
+      Entry: 9
+      Data: 40
+    - Name: 
+      Entry: 9
+      Data: 26
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ViewTransform
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  BehaviorOBJ: {fileID: 2178522438112348770}
+--- !u!114 &2262142801464158629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0d1cef820c6be40b9cf8e98f0d7944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcid: 0
+  animator: {fileID: 0}
+  workingUI: {fileID: 0}
+  isReached: 0
+  _isArrived: 0
+  UP: {x: 0, y: 1}
+  DOWN: {x: 0, y: -1}
+  LEFT: {x: 1, y: 0}
+  RIGHT: {x: -1, y: 0}
+  sleepTran: {fileID: 0}
+  nowPainting: {fileID: 0}
+  waitTran: {fileID: 0}
+  dealTrans: {fileID: 0}
+--- !u!114 &4453135124643614074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178522438112348770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2cc5ae2c72c8b42a78e10cf99f242e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _map: {fileID: 0}
+  maxSpeed: 3.5
+  lookAheadDistance: 1
+  centerOffset: {x: 0, y: 0}
+  debugPath: 1
+--- !u!1001 &3461859656556293176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8413042688163104134}
+    m_Modifications:
+    - target: {fileID: 5782222454477044837, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 4087
+      objectReference: {fileID: 0}
+    - target: {fileID: 7173518457765183344, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_Name
+      value: WorkingNPCWin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7173518457765183344, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 297.454
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 345.3792
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+--- !u!224 &4631576051085359673 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8091938172166804993, guid: 5901956c588591c47a45a39b92fe6d24, type: 3}
+  m_PrefabInstance: {fileID: 3461859656556293176}
+  m_PrefabAsset: {fileID: 0}

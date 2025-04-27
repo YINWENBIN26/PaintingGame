@@ -1,0 +1,1571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5042800300356662875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2799438903891158304}
+  - component: {fileID: 3815048345064641597}
+  - component: {fileID: 3537853255663971239}
+  m_Layer: 0
+  m_Name: DealOBJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2799438903891158304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5042800300356662875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.128275, y: -5.746308, z: -2.5861173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3815048345064641597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5042800300356662875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54731ea43d5ab7a47bbd97fa84249810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dealWinInfo: {fileID: 0}
+  nPC: {fileID: 0}
+  price: 0
+  npcDialgueAsset: {fileID: 4900000, guid: d916877ad4aa2854b8c783e27f1f3425, type: 3}
+--- !u!114 &3537853255663971239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5042800300356662875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa9ac09611e67446a54faa15b846df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: TreeData
+      Entry: 7
+      Data: 0|BehaviourTree.BehaviourTreeData, Assembly-CSharp
+    - Name: Root
+      Entry: 7
+      Data: 1|BehaviourTree.Entry, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: ce01aa37-5cce-481c-b1c6-7262814d9069
+    - Name: NodeName
+      Entry: 1
+      Data: Entry
+    - Name: NodeType
+      Entry: 3
+      Data: 1
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 394
+    - Name: 
+      Entry: 4
+      Data: 533
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 6
+      Data: 
+    - Name: ChildNode
+      Entry: 7
+      Data: 2|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a426918b-918b-4639-8113-32a8dbf02d85
+    - Name: NodeName
+      Entry: 1
+      Data: Sequence
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 649
+    - Name: 
+      Entry: 4
+      Data: 542
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 1
+    - Name: ChildNodes
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 4|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 3d2a3c27-fb62-4adb-af5f-53fd8956fe9b
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 993
+    - Name: 
+      Entry: 4
+      Data: 339
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 2
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: How much is it?
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|BehaviorTree.Deal.SetPrcie, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: c1acce66-cb51-4a4d-a1a3-cae6bd9bb582
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4FA1\u683C\u3092\u8A2D\u5B9A\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 983
+    - Name: 
+      Entry: 4
+      Data: 515
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|BehaviourTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 389ba170-2923-4ff0-8ac1-e756d99847a0
+    - Name: NodeName
+      Entry: 1
+      Data: Selector
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 978
+    - Name: 
+      Entry: 4
+      Data: 699
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 2
+    - Name: ChildNodes
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 8|BehaviorTree.Deal.DealJundge, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 4ab34e3c-724a-42db-b2bb-8277669d0dbd
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4FA1\u683C\u304C\u9AD8\u3059\u304E"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1364
+    - Name: 
+      Entry: 4
+      Data: 488
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 6
+    - Name: ChildNode
+      Entry: 7
+      Data: 9|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 7c41faea-829c-48e0-91cf-a93ff68c4388
+    - Name: NodeName
+      Entry: 1
+      Data: Sequence
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1722
+    - Name: 
+      Entry: 4
+      Data: 478
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 8
+    - Name: ChildNodes
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 11|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: dc811111-bc6a-4b10-af18-414700dba042
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2057
+    - Name: 
+      Entry: 4
+      Data: 294
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 9
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: It's too expensive
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|BehaviorTree.Deal.CancelDeal, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: b0051e52-84a7-4892-9b27-9ff1eeb389d6
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D6\u5F15\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2029
+    - Name: 
+      Entry: 4
+      Data: 557
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priceSate
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|BehaviorTree.Deal.DealJundge, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: fa8b4f8f-c501-4673-b75c-294b494920ca
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4FA1\u683C\u304C\u5C11\u3057\u9AD8\u3044"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1333
+    - Name: 
+      Entry: 4
+      Data: 879
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 6
+    - Name: ChildNode
+      Entry: 7
+      Data: 14|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 338db4b2-e18c-4fba-8276-cc5ea3de95af
+    - Name: NodeName
+      Entry: 1
+      Data: Sequence
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1709
+    - Name: 
+      Entry: 4
+      Data: 880
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 13
+    - Name: ChildNodes
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 16|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a338e3ce-32b2-497c-b1a6-19e17fdd3fb7
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1959
+    - Name: 
+      Entry: 4
+      Data: 687
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 14
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: It's expensive. Can it be a bit cheaper?
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|BehaviorTree.Deal.SetPrcie, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: c699a94b-f49a-4e72-8045-9cb4df12e32f
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4FA1\u683C\u3092\u8A2D\u5B9A\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1964
+    - Name: 
+      Entry: 4
+      Data: 888
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|BehaviourTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 9151152b-f254-4ad8-b661-499ef816fbb1
+    - Name: NodeName
+      Entry: 1
+      Data: Selector
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1947
+    - Name: 
+      Entry: 4
+      Data: 1064
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 14
+    - Name: ChildNodes
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 20|BehaviorTree.Deal.DealJundge, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: fd0e638f-d7ca-4a0c-9d2e-b5e99a952bdd
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4FA1\u683C\u304C\u9AD8\u3044"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2268
+    - Name: 
+      Entry: 4
+      Data: 905
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 18
+    - Name: ChildNode
+      Entry: 7
+      Data: 21|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 528c805a-f20c-4836-b74d-e543f19a90c3
+    - Name: NodeName
+      Entry: 1
+      Data: Sequence
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2532
+    - Name: 
+      Entry: 4
+      Data: 885
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 20
+    - Name: ChildNodes
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 23|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: d0520864-0d27-4fa9-b2fe-db517f072434
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2826
+    - Name: 
+      Entry: 4
+      Data: 788
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 21
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: It's too expensive
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|BehaviorTree.Deal.CancelDeal, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 3a4c1911-054f-4700-bc9c-408384769537
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D6\u5F15\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2818
+    - Name: 
+      Entry: 4
+      Data: 978
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priceSate
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|BehaviourTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 4478e5d0-26e6-4009-a8ac-45fcf45a06cb
+    - Name: NodeName
+      Entry: 1
+      Data: Selector
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2285
+    - Name: 
+      Entry: 4
+      Data: 1212
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 18
+    - Name: ChildNodes
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 27|BehaviorTree.Deal.JudgeMoney, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 33dc36b9-2e02-4602-bfcf-d12603cdfa92
+    - Name: NodeName
+      Entry: 1
+      Data: "\u304A\u91D1\u304C\u3042\u308B\u304B\u3069\u3046\u304B"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2550
+    - Name: 
+      Entry: 4
+      Data: 1159
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 25
+    - Name: ChildNode
+      Entry: 7
+      Data: 28|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: cbbff497-3988-48e8-bfab-c2d0165bd0de
+    - Name: NodeName
+      Entry: 1
+      Data: "\u3042\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2758
+    - Name: 
+      Entry: 4
+      Data: 1154
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 27
+    - Name: ChildNodes
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 30|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 68142cb5-c2c3-4745-97c2-a1455e1b745d
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3039
+    - Name: 
+      Entry: 4
+      Data: 1077
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 28
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: I buy it
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|BehaviorTree.Deal.FinshlDeal, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: c748be55-24ce-4554-9b02-92e88d2689ce
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D6\u5F15\u3092\u9054\u6210\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 3066
+    - Name: 
+      Entry: 4
+      Data: 1289
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 3a78c6d0-798b-4734-a43b-ff8164940900
+    - Name: NodeName
+      Entry: 1
+      Data: "\u3044\u306A\u3044"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2581
+    - Name: 
+      Entry: 4
+      Data: 1391
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 25
+    - Name: ChildNodes
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 34|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: ea7fceee-df22-4cdd-8914-b58c6e49a7ac
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2781
+    - Name: 
+      Entry: 4
+      Data: 1295
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 32
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: i haven't any money
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|BehaviorTree.Deal.CancelDeal, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: f278c4ed-b8ee-437f-a3c6-8ad1912fa5e4
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D6\u5F15\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2824
+    - Name: 
+      Entry: 4
+      Data: 1509
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priceSate
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|BehaviourTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 6d16472d-9dc7-4dca-a233-7c69744665b6
+    - Name: NodeName
+      Entry: 1
+      Data: "\u4FA1\u683C\u304C\u5B89\u3044"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1291
+    - Name: 
+      Entry: 4
+      Data: 1499
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 6
+    - Name: ChildNodes
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 38|BehaviorTree.Deal.JudgeMoney, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 78a922b9-b1f0-4d5f-b8c7-186abbe6f43f
+    - Name: NodeName
+      Entry: 1
+      Data: "\u304A\u91D1\u304C\u3042\u308B\u304B\u3069\u3046\u304B"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1557
+    - Name: 
+      Entry: 4
+      Data: 1346
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 36
+    - Name: ChildNode
+      Entry: 7
+      Data: 39|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 750bea97-15dd-4069-9995-54f454ab6c15
+    - Name: NodeName
+      Entry: 1
+      Data: "\u3042\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1796
+    - Name: 
+      Entry: 4
+      Data: 1350
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 38
+    - Name: ChildNodes
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 41|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 7cc4d723-684f-450a-9274-2dadc6d54b41
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2062
+    - Name: 
+      Entry: 4
+      Data: 1287
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 39
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: I buy it
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|BehaviorTree.Deal.FinshlDeal, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: abcfaade-9feb-4c0f-8d1a-5ed877d7ea37
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D6\u5F15\u3092\u9054\u6210\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 2053
+    - Name: 
+      Entry: 4
+      Data: 1483
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 39
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: e59a90c0-d03c-4094-ac1d-4eea015123eb
+    - Name: NodeName
+      Entry: 1
+      Data: "\u3044\u306A\u3044"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1541
+    - Name: 
+      Entry: 4
+      Data: 1645
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 36
+    - Name: ChildNodes
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 45|BehaviorTree.Deal.Diagloue, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 52d2f5ac-26d7-4003-905b-c8309a52bb88
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5BFE\u8A71"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1787
+    - Name: 
+      Entry: 4
+      Data: 1557
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 43
+    - Name: index
+      Entry: 3
+      Data: 0
+    - Name: dialgue
+      Entry: 1
+      Data: i haven't any money
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|BehaviorTree.Deal.CancelDeal, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 9ad7a379-53e7-4dbd-aea7-f51f24c83753
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D6\u5F15\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3059\u308B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1801
+    - Name: 
+      Entry: 4
+      Data: 1744
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 9
+      Data: 43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: behaviorGameOBJ
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeData
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 34
+    - Name: 
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 9
+      Data: 6
+    - Name: 
+      Entry: 9
+      Data: 8
+    - Name: 
+      Entry: 9
+      Data: 13
+    - Name: 
+      Entry: 9
+      Data: 9
+    - Name: 
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 9
+      Data: 12
+    - Name: 
+      Entry: 9
+      Data: 14
+    - Name: 
+      Entry: 9
+      Data: 16
+    - Name: 
+      Entry: 9
+      Data: 17
+    - Name: 
+      Entry: 9
+      Data: 18
+    - Name: 
+      Entry: 9
+      Data: 20
+    - Name: 
+      Entry: 9
+      Data: 21
+    - Name: 
+      Entry: 9
+      Data: 23
+    - Name: 
+      Entry: 9
+      Data: 24
+    - Name: 
+      Entry: 9
+      Data: 25
+    - Name: 
+      Entry: 9
+      Data: 27
+    - Name: 
+      Entry: 9
+      Data: 28
+    - Name: 
+      Entry: 9
+      Data: 30
+    - Name: 
+      Entry: 9
+      Data: 32
+    - Name: 
+      Entry: 9
+      Data: 31
+    - Name: 
+      Entry: 9
+      Data: 34
+    - Name: 
+      Entry: 9
+      Data: 35
+    - Name: 
+      Entry: 9
+      Data: 36
+    - Name: 
+      Entry: 9
+      Data: 38
+    - Name: 
+      Entry: 9
+      Data: 39
+    - Name: 
+      Entry: 9
+      Data: 41
+    - Name: 
+      Entry: 9
+      Data: 42
+    - Name: 
+      Entry: 9
+      Data: 43
+    - Name: 
+      Entry: 9
+      Data: 45
+    - Name: 
+      Entry: 9
+      Data: 46
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ViewTransform
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  BehaviorOBJ: {fileID: 0}

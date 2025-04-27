@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 54731ea43d5ab7a47bbd97fa84249810
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dealWinInfo: {instanceID: 0}
+  - nPC: {instanceID: 0}
+  - npcDialgueAsset: {fileID: 4900000, guid: d916877ad4aa2854b8c783e27f1f3425, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

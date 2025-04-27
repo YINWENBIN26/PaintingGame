@@ -1,0 +1,532 @@
+{
+    "$id": 0,
+    "$type": "0|BehaviourTree.BehaviourTreeData, Assembly-CSharp",
+    "Root": {
+        "$id": 1,
+        "$type": "1|BehaviourTree.Entry, Assembly-CSharp",
+        "Guid": "69b42a26-7c4d-4d50-8655-6bf52199f85e",
+        "Position": {
+            "$type": "2|UnityEngine.Vector2, UnityEngine.CoreModule",
+            0,
+            0
+        },
+        "NodeName": "Entry",
+        "NodeType": 0,
+        "NodeState": 0,
+        "parent": null,
+        "ChildNode": {
+            "$id": 2,
+            "$type": "3|BehaviourTree.Selector, Assembly-CSharp",
+            "Guid": "8f37b713-b4b1-4c1a-9259-0757bef932b6",
+            "Position": {
+                "$type": 2,
+                227,
+                -4
+            },
+            "NodeName": "WorkSelect",
+            "NodeType": 2,
+            "NodeState": 0,
+            "parent": $iref:1,
+            "ChildNodes": {
+                "$id": 3,
+                "$type": "4|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]], mscorlib",
+                "$rlength": 3,
+                "$rcontent": [
+                    {
+                        "$id": 4,
+                        "$type": "5|BehaviourTree.So, Assembly-CSharp",
+                        "Guid": "a9b61484-6533-4ad5-9c7f-25a5d6d7f4e5",
+                        "Position": {
+                            "$type": 2,
+                            488,
+                            -203
+                        },
+                        "NodeName": "IsNeedToDeal",
+                        "NodeType": 3,
+                        "NodeState": 0,
+                        "parent": $iref:2,
+                        "ChildNode": {
+                            "$id": 5,
+                            "$type": 3,
+                            "Guid": "d5c2ed36-b708-4aab-8527-2f7948d24c45",
+                            "Position": {
+                                "$type": 2,
+                                761,
+                                -200
+                            },
+                            "NodeName": "Selector",
+                            "NodeType": 2,
+                            "NodeState": 0,
+                            "parent": $iref:4,
+                            "ChildNodes": {
+                                "$id": 6,
+                                "$type": 4,
+                                "$rlength": 1,
+                                "$rcontent": [
+                                    {
+                                        "$id": 7,
+                                        "$type": "6|BehaviourTree.WorkNpc.WorkNPCBT+JudgePosition, Assembly-CSharp",
+                                        "Guid": "a8967a8d-a9d9-4b33-8a0a-28833ad79f70",
+                                        "Position": {
+                                            "$type": 2,
+                                            1022,
+                                            -302
+                                        },
+                                        "NodeName": "JudgePosition",
+                                        "NodeType": 3,
+                                        "NodeState": 0,
+                                        "parent": $iref:5,
+                                        "ChildNode": {
+                                            "$id": 8,
+                                            "$type": "7|BehaviourTree.WorkNpc.GotoDes, Assembly-CSharp",
+                                            "Guid": "fe87987c-1c42-45c3-9b75-3ea46634c37c",
+                                            "Position": {
+                                                "$type": 2,
+                                                1311,
+                                                -310
+                                            },
+                                            "NodeName": "GotoDes",
+                                            "NodeType": 4,
+                                            "NodeState": 0,
+                                            "parent": $iref:7,
+                                            "IsArrive": {
+                                                "$id": 9,
+                                                "$type": "8|System.Func`1[[System.Boolean, mscorlib]], mscorlib",
+                                                "target": {
+                                                    "$id": 10,
+                                                    "$type": "9|WorkingNpc, Assembly-CSharp",
+                                                    "nPCprop": null,
+                                                    "npcid": 0,
+                                                    "animator": {
+                                                        "$id": 11,
+                                                        "$type": "10|UnityEngine.Animator, UnityEngine.AnimationModule"
+                                                    },
+                                                    "workingUI": null,
+                                                    "isReached": false,
+                                                    "_isArrived": false,
+                                                    "UP": {
+                                                        "$type": 2,
+                                                        0,
+                                                        1
+                                                    },
+                                                    "DOWN": {
+                                                        "$type": 2,
+                                                        0,
+                                                        -1
+                                                    },
+                                                    "LEFT": {
+                                                        "$type": 2,
+                                                        1,
+                                                        0
+                                                    },
+                                                    "RIGHT": {
+                                                        "$type": 2,
+                                                        -1,
+                                                        0
+                                                    },
+                                                    "sleepTran": {
+                                                        "$id": 12,
+                                                        "$type": "11|UnityEngine.Transform, UnityEngine.CoreModule"
+                                                    },
+                                                    "nowPainting": null,
+                                                    "waitTran": {
+                                                        "$id": 13,
+                                                        "$type": 11
+                                                    },
+                                                    "dealTrans": {
+                                                        "$id": 14,
+                                                        "$type": 11
+                                                    }
+                                                },
+                                                "declaringType": {
+                                                    "$id": 15,
+                                                    "$type": "12|System.RuntimeType, mscorlib",
+                                                    "WorkingNpc, Assembly-CSharp"
+                                                },
+                                                "methodName": "CheckMoving",
+                                                "delegateType": {
+                                                    "$id": 16,
+                                                    "$type": 12,
+                                                    "System.Func`1[[System.Boolean, mscorlib]], mscorlib"
+                                                },
+                                                "signature": {
+                                                    "$id": 17,
+                                                    "$type": "13|System.Type[], mscorlib",
+                                                    "$rlength": 0,
+                                                    "$rcontent": [
+                                                    ]
+                                                }
+                                            },
+                                            "DesTran": {
+                                                "$id": 18,
+                                                "$type": 11
+                                            },
+                                            "AfterArrived": {
+                                                "$id": 19,
+                                                "$type": "14|System.Action, mscorlib",
+                                                "target": $iref:10,
+                                                "declaringType": $iref:15,
+                                                "methodName": "DealMoveArrived",
+                                                "delegateType": {
+                                                    "$id": 20,
+                                                    "$type": 12,
+                                                    "System.Action, mscorlib"
+                                                },
+                                                "signature": {
+                                                    "$id": 21,
+                                                    "$type": 13,
+                                                    "$rlength": 0,
+                                                    "$rcontent": [
+                                                    ]
+                                                }
+                                            },
+                                            "HowtoMove": {
+                                                "$id": 22,
+                                                "$type": "15|System.Action`1[[UnityEngine.Transform, UnityEngine.CoreModule]], mscorlib",
+                                                "target": $iref:10,
+                                                "declaringType": $iref:15,
+                                                "methodName": "MoveToDES",
+                                                "delegateType": {
+                                                    "$id": 23,
+                                                    "$type": 12,
+                                                    "System.Action`1[[UnityEngine.Transform, UnityEngine.CoreModule]], mscorlib"
+                                                },
+                                                "signature": {
+                                                    "$id": 24,
+                                                    "$type": 13,
+                                                    "$rlength": 1,
+                                                    "$rcontent": [
+                                                        {
+                                                            "$id": 25,
+                                                            "$type": 12,
+                                                            "UnityEngine.Transform, UnityEngine.CoreModule"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "isNearBy": {
+                                            "$id": 26,
+                                            "$type": 8,
+                                            "target": $iref:10,
+                                            "declaringType": $iref:15,
+                                            "methodName": "IsNearByCasshier",
+                                            "delegateType": $iref:16,
+                                            "signature": {
+                                                "$id": 27,
+                                                "$type": 13,
+                                                "$rlength": 0,
+                                                "$rcontent": [
+                                                ]
+                                            }
+                                        },
+                                        "ResetFlag": {
+                                            "$id": 28,
+                                            "$type": 14,
+                                            "target": $iref:10,
+                                            "declaringType": $iref:15,
+                                            "methodName": "ResetFlag",
+                                            "delegateType": $iref:20,
+                                            "signature": {
+                                                "$id": 29,
+                                                "$type": 13,
+                                                "$rlength": 0,
+                                                "$rcontent": [
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "selectIndex": 0
+                        },
+                        "Condition": null
+                    },
+                    {
+                        "$id": 30,
+                        "$type": 5,
+                        "Guid": "528f80e1-f4d0-4bd9-82d0-92dfcb788e59",
+                        "Position": {
+                            "$type": 2,
+                            486,
+                            191
+                        },
+                        "NodeName": "IsNeedToWork",
+                        "NodeType": 3,
+                        "NodeState": 0,
+                        "parent": $iref:2,
+                        "ChildNode": {
+                            "$id": 31,
+                            "$type": 3,
+                            "Guid": "0114bab4-b7db-4aa3-b6a1-45ed9ce770a7",
+                            "Position": {
+                                "$type": 2,
+                                755,
+                                188
+                            },
+                            "NodeName": "Selector",
+                            "NodeType": 2,
+                            "NodeState": 0,
+                            "parent": $iref:30,
+                            "ChildNodes": {
+                                "$id": 32,
+                                "$type": 4,
+                                "$rlength": 1,
+                                "$rcontent": [
+                                    {
+                                        "$id": 33,
+                                        "$type": 6,
+                                        "Guid": "a78a9465-795c-4fbc-9396-46d48c8cfe17",
+                                        "Position": {
+                                            "$type": 2,
+                                            1018,
+                                            143
+                                        },
+                                        "NodeName": "JudgePosition",
+                                        "NodeType": 3,
+                                        "NodeState": 0,
+                                        "parent": $iref:31,
+                                        "ChildNode": {
+                                            "$id": 34,
+                                            "$type": "16|BehaviourTree.WorkNpc.GotoWork, Assembly-CSharp",
+                                            "Guid": "68e84544-4703-4e03-add2-6d6b0bc88776",
+                                            "Position": {
+                                                "$type": 2,
+                                                1306,
+                                                100
+                                            },
+                                            "NodeName": "GotoWork",
+                                            "NodeType": 4,
+                                            "NodeState": 0,
+                                            "parent": $iref:33,
+                                            "IsArrive": {
+                                                "$id": 35,
+                                                "$type": 8,
+                                                "target": $iref:10,
+                                                "declaringType": $iref:15,
+                                                "methodName": "CheckMoving",
+                                                "delegateType": $iref:16,
+                                                "signature": {
+                                                    "$id": 36,
+                                                    "$type": 13,
+                                                    "$rlength": 0,
+                                                    "$rcontent": [
+                                                    ]
+                                                }
+                                            },
+                                            "AfterArrived": {
+                                                "$id": 37,
+                                                "$type": 14,
+                                                "target": $iref:10,
+                                                "declaringType": $iref:15,
+                                                "methodName": "WorkMoveArrived",
+                                                "delegateType": $iref:20,
+                                                "signature": {
+                                                    "$id": 38,
+                                                    "$type": 13,
+                                                    "$rlength": 0,
+                                                    "$rcontent": [
+                                                    ]
+                                                }
+                                            },
+                                            "HowtoMove": {
+                                                "$id": 39,
+                                                "$type": 15,
+                                                "target": $iref:10,
+                                                "declaringType": $iref:15,
+                                                "methodName": "MoveToDES",
+                                                "delegateType": $iref:23,
+                                                "signature": {
+                                                    "$id": 40,
+                                                    "$type": 13,
+                                                    "$rlength": 1,
+                                                    "$rcontent": [
+                                                        $iref:25
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "isNearBy": {
+                                            "$id": 41,
+                                            "$type": 8,
+                                            "target": $iref:10,
+                                            "declaringType": $iref:15,
+                                            "methodName": "IsNearByWork",
+                                            "delegateType": $iref:16,
+                                            "signature": {
+                                                "$id": 42,
+                                                "$type": 13,
+                                                "$rlength": 0,
+                                                "$rcontent": [
+                                                ]
+                                            }
+                                        },
+                                        "ResetFlag": {
+                                            "$id": 43,
+                                            "$type": 14,
+                                            "target": $iref:10,
+                                            "declaringType": $iref:15,
+                                            "methodName": "ResetFlag",
+                                            "delegateType": $iref:20,
+                                            "signature": {
+                                                "$id": 44,
+                                                "$type": 13,
+                                                "$rlength": 0,
+                                                "$rcontent": [
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "selectIndex": 0
+                        },
+                        "Condition": null
+                    },
+                    {
+                        "$id": 45,
+                        "$type": "17|BehaviourTree.Sequence, Assembly-CSharp",
+                        "Guid": "55ce65f7-02dc-4a17-b79b-751cb41c5c46",
+                        "Position": {
+                            "$type": 2,
+                            495,
+                            558
+                        },
+                        "NodeName": "Sequence",
+                        "NodeType": 2,
+                        "NodeState": 0,
+                        "parent": $iref:2,
+                        "ChildNodes": {
+                            "$id": 46,
+                            "$type": 4,
+                            "$rlength": 1,
+                            "$rcontent": [
+                                {
+                                    "$id": 47,
+                                    "$type": 6,
+                                    "Guid": "8a705a6e-9367-474b-9f80-050c825db693",
+                                    "Position": {
+                                        "$type": 2,
+                                        736,
+                                        518
+                                    },
+                                    "NodeName": "JudgePosition",
+                                    "NodeType": 3,
+                                    "NodeState": 0,
+                                    "parent": $iref:45,
+                                    "ChildNode": {
+                                        "$id": 48,
+                                        "$type": 7,
+                                        "Guid": "f428aded-4937-4c44-9fe1-46bcb60fd13d",
+                                        "Position": {
+                                            "$type": 2,
+                                            1041,
+                                            507
+                                        },
+                                        "NodeName": "GotoDes",
+                                        "NodeType": 4,
+                                        "NodeState": 0,
+                                        "parent": $iref:47,
+                                        "IsArrive": {
+                                            "$id": 49,
+                                            "$type": 8,
+                                            "target": $iref:10,
+                                            "declaringType": $iref:15,
+                                            "methodName": "IsNearByWait",
+                                            "delegateType": $iref:16,
+                                            "signature": {
+                                                "$id": 50,
+                                                "$type": 13,
+                                                "$rlength": 0,
+                                                "$rcontent": [
+                                                ]
+                                            }
+                                        },
+                                        "DesTran": {
+                                            "$id": 51,
+                                            "$type": 11
+                                        },
+                                        "AfterArrived": null,
+                                        "HowtoMove": {
+                                            "$id": 52,
+                                            "$type": 15,
+                                            "target": $iref:10,
+                                            "declaringType": $iref:15,
+                                            "methodName": "MoveToDES",
+                                            "delegateType": $iref:23,
+                                            "signature": {
+                                                "$id": 53,
+                                                "$type": 13,
+                                                "$rlength": 1,
+                                                "$rcontent": [
+                                                    $iref:25
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "isNearBy": {
+                                        "$id": 54,
+                                        "$type": 8,
+                                        "target": $iref:10,
+                                        "declaringType": $iref:15,
+                                        "methodName": "IsNearByWait",
+                                        "delegateType": $iref:16,
+                                        "signature": {
+                                            "$id": 55,
+                                            "$type": 13,
+                                            "$rlength": 0,
+                                            "$rcontent": [
+                                            ]
+                                        }
+                                    },
+                                    "ResetFlag": {
+                                        "$id": 56,
+                                        "$type": 14,
+                                        "target": $iref:10,
+                                        "declaringType": $iref:15,
+                                        "methodName": "ResetFlag",
+                                        "delegateType": $iref:20,
+                                        "signature": {
+                                            "$id": 57,
+                                            "$type": 13,
+                                            "$rlength": 0,
+                                            "$rcontent": [
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "currnetNode": 0
+                    }
+                ]
+            },
+            "selectIndex": 0
+        },
+        "behaviorGameOBJ": {
+            "$id": 58,
+            "$type": "18|UnityEngine.GameObject, UnityEngine.CoreModule"
+        }
+    },
+    "NodeData": {
+        "$id": 59,
+        "$type": 4,
+        "$rlength": 13,
+        "$rcontent": [
+            $iref:1,
+            $iref:2,
+            $iref:4,
+            $iref:30,
+            $iref:5,
+            $iref:7,
+            $iref:8,
+            $iref:31,
+            $iref:33,
+            $iref:45,
+            $iref:47,
+            $iref:48,
+            $iref:34
+        ]
+    },
+    "ViewTransform": null
+}

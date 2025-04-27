@@ -1,0 +1,70 @@
+{
+    "$id": 0,
+    "$type": "0|BehaviourTree.BehaviourTreeData, Assembly-CSharp",
+    "Root": {
+        "$id": 1,
+        "$type": "1|BehaviourTree.Entry, Assembly-CSharp",
+        "Guid": "d7c6fbbe-c8eb-49d3-91b5-763579bf84f1",
+        "Position": {
+            "$type": "2|UnityEngine.Vector2, UnityEngine.CoreModule",
+            622,
+            500
+        },
+        "NodeName": "Entry",
+        "NodeType": 0,
+        "NodeState": 0,
+        "parent": null,
+        "ChildNode": {
+            "$id": 2,
+            "$type": "3|BehaviourTree.So, Assembly-CSharp",
+            "Guid": "2e041853-39d0-4b5c-928c-e68898bbfa77",
+            "Position": {
+                "$type": 2,
+                892,
+                405
+            },
+            "NodeName": "So",
+            "NodeType": 3,
+            "NodeState": 0,
+            "parent": $iref:1,
+            "ChildNode": {
+                "$id": 3,
+                "$type": "4|BehaviourTree.Selector, Assembly-CSharp",
+                "Guid": "43c91bc3-1311-4a36-bb1d-ee1b2424d962",
+                "Position": {
+                    "$type": 2,
+                    1176,
+                    373
+                },
+                "NodeName": "Selector",
+                "NodeType": 2,
+                "NodeState": 0,
+                "parent": $iref:2,
+                "ChildNodes": {
+                    "$id": 4,
+                    "$type": "5|System.Collections.Generic.List`1[[BehaviourTree.BtNodeBase, Assembly-CSharp]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "selectIndex": 0
+            },
+            "Condition": null
+        },
+        "behaviorGameOBJ": {
+            "$id": 5,
+            "$type": "6|UnityEngine.GameObject, UnityEngine.CoreModule"
+        }
+    },
+    "NodeData": {
+        "$id": 6,
+        "$type": 5,
+        "$rlength": 3,
+        "$rcontent": [
+            $iref:1,
+            $iref:2,
+            $iref:3
+        ]
+    },
+    "ViewTransform": null
+}

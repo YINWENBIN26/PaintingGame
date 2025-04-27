@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4008692936289932830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4008692936289932833}
+  - component: {fileID: 4008692936289932834}
+  - component: {fileID: 4008692936289932835}
+  - component: {fileID: 4008692936289932828}
+  - component: {fileID: 4008692936289932829}
+  - component: {fileID: 4008692936289932832}
+  - component: {fileID: 4008692936289932838}
+  - component: {fileID: 4008692936289932839}
+  - component: {fileID: 4008692936289932837}
+  - component: {fileID: 4008692936289932836}
+  - component: {fileID: 4008692936289932843}
+  m_Layer: 0
+  m_Name: AlwaysInstanceManagerger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008692936289932833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.085213, y: -31.010376, z: -0.89453125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4008692936289932834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f638d8d5c83d6854f96e1161135a45ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carmea: {fileID: 0}
+  gameDictionary: {fileID: 4008692936289932828}
+  knapsack: {fileID: 4008692936289932835}
+  dialogueUI: {fileID: 0}
+  timeLineController: {fileID: 4008692936289932829}
+  timer: {fileID: 4008692936289932832}
+  gameContorller: {fileID: 4008692936289932838}
+  playerProp: {fileID: 4008692936289932839}
+  timeManager: {fileID: 4008692936289932837}
+  dialogueController: {fileID: 4008692936289932836}
+  paintController: {fileID: 4008692936289932843}
+  paintingDecideWin: {fileID: 0}
+  audioController: {fileID: 0}
+--- !u!114 &4008692936289932835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf34b4db94af91342b844e788ae655f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4008692936289932828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd0655940997a74995800f05a0a13c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KnapsackData: {fileID: 4900000, guid: 4ab030cd64e717f4fba87a5169f0eadc, type: 3}
+  NpcData: {fileID: 4900000, guid: bcff82148fdc7494b940eb5d8cf5bad4, type: 3}
+  PaintingData: {fileID: 4900000, guid: a7fb391274cc3094f89ac70d3b98c85e, type: 3}
+--- !u!114 &4008692936289932829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85c54289845cbf4eb794c11d489990b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTimeLine: 0
+  go: {fileID: 0}
+--- !u!114 &4008692936289932832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8c67d6419f0614992e34bae7bb62df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4008692936289932838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87e90b18ddad8243b5d1f814cdbf3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mainhero: {fileID: 0}
+  currentSelectedGoodsShelf: {fileID: 0}
+  currentGoodsShelf: {fileID: 0}
+  SelectedGGoodsShelfTip: {fileID: 0}
+  tempObject: {fileID: 0}
+  nPCController: {fileID: 0}
+  NPCIncubator: {fileID: 0}
+  nPC: {fileID: 0}
+  candeal: 1
+--- !u!114 &4008692936289932839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f4e247d07099d45a3a45bb68dcd603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4008692936289932837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6769e9cd1b08eea489dbc934ffca120f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  day: 20
+  BlackMask: {fileID: 0}
+  text: {fileID: 0}
+  Opening: {fileID: 0}
+  Happybirthday: {fileID: 0}
+  GoodshelfSet: {fileID: 0}
+--- !u!114 &4008692936289932836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14638b10a41310243b1718f800f2811b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueUI: {fileID: 0}
+--- !u!114 &4008692936289932843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008692936289932830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08ea9b0c77c20141a9802e744bc4138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nowpaiting: {fileID: 0}
+  PaintingControllerWin: {fileID: 0}
